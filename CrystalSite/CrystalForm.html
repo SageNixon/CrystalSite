@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Find Your Crystal</title>
+		<link href="Form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<main>
+		<nav>
+   <article class="dropdown">
+    <button class="dropbtn">Introduction to Crystals 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <article class="dropdown-content">
+      <a href="CrystalIndex.html">How Crystals work?</a>
+      <a href="CrystalTypes.html">Crystal Types</a>
+      <a href="CrystalUse.html">How to use?</a>
+    </article>
+  </article> 
+  <article class="dropdown">
+     <button class="dropbtn">Crystal Preparation
+      <i class="fa fa-caret-down"></i>
+    </button>
+     <article class="dropdown-content">
+      <a href="CleanseCharge.html">Charging/Cleansing</a>
+    </article>
+  </article> 
+	  <a href="CrystalForm.html">Find your Crystal</a>
+</nav>
+		<form method="post">
+			<fieldset>
+			<legend><h1>Find Your Crystal</h1></legend>
+			<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your Name.." max="50">
+		<br><br>
+			<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your Last Name" max="50">
+		<br><br>
+			<label for="email">Email</label>
+				<input type="email" id="email" required>
+		<br><br>
+			<label for="birthday">Birth Date:</label>
+				<input type="date" id="birthday" name="birthday">
+		<br><br>
+			<label for="firstcolor">What Color Describes You Best?</label>
+				<input type="color" id="firstcolor" value="#953553">
+		<br><br>
+			<label for="manifestation">What are you trying to manifest into your life?</label>
+				<select id="manifestation" name="manifestation">
+    				<option value="health">Physical Health</option>
+    				<option value="money">Money</option>
+    				<option value="confidence">Confidence</option>
+    				<option value="clarity">Mental Clarity</option>
+   				 	<option value="anger">Anger Management</option>
+    				<option value="stress">Stress Relief</option>
+    				<option value="career">New Job</option>
+    				<option value="intimacy">Intimacy</option>
+    				<option value="success">Success</option>
+  				</select>
+  					<input type="reset">
+		<br>
+			<article>
+			<h2>What do you want to feel more of?</h2><input type="radio" id="love" name="more" value="love">
+  					<label for="love">Love</label><br><input type="radio" id="joy" name="more" value="joy">
+  					<label for="joy">Joy</label><br><input type="radio" id="peace" name="more" value="peace">
+  					<label for="peace">Peace</label><br>
+  				<input type="radio" id="trust" name="more" value="trust">
+  					<label for="trust">trust</label><br>
+  				<input type="radio" id="hope" name="more" value="hope">
+  					<label for="hope">Hope</label><br>
+  				<input type="radio" id="courage" name="more" value="courage">
+  					<label for="courage">Courage</label><br>
+    			<input type="radio" id="relief" name="more" value="relief">
+  					<label for="relief">Relief</label><br>
+    			<input type="radio" id="compassion" name="more" value="compassion">
+  					<label for="compassion">Compassion</label><br>
+    			<input type="radio" id="security" name="more" value="security">
+  					<label for="security">Security</label><br>  
+		
+		<br>
+  			<h2>What do you want to feel less of?</h2>
+  				<input type="radio" id="fear" name="less" value="fear">
+  					<label for="fear">Fear</label><br><input type="radio" id="negativity" name="less" value="negativity">
+  					<label for="negativity">Negativity</label><br><input type="radio" id="insecurity" name="less" value="insecurity">
+  					<label for="insecurity">Insecurity</label><br>
+  				<input type="radio" id="weakness" name="less" value="weakness">
+  					<label for="weakness">Weakness</label><br>
+  				<input type="radio" id="stress" name="less" value="stress">
+  					<label for="stress">Stress</label><br>
+  				<input type="radio" id="anxiety" name="less" value="anxiety">
+  					<label for="anxiety">Anxiety</label><br>
+    			<input type="radio" id="idea" name="less" value="idea">
+  					<label for="idea">False Ideas</label><br>
+   				<input type="radio" id="pain" name="less" value="pain">
+  					<label for="pain">Pain</label><br>
+		<br>
+				</article>
+			<input type="submit" value="submit">
+			</fieldset>
+		</form>	
+	</main>
+</body>
+</html>
